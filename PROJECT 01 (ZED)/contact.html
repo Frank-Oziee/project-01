@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="HAVE-IT-ON Contacts">
+    <meta name="keywords" content="HTML, CSS, JAVASCRIPT">
+    <meta name="author" content="Frank Oziee">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact HAVE-IT-ON</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/x-icon" href="images for my 1st project/IMG-20220823-WA0029.jpg">
+    <script src="js/main.js" defer></script>
+
+</head>
+
+
+<body>
+    <header class="header">
+    <h1 class="header__h1">HAVE-IT-ON</h1>
+    <nav class="header__nav">
+        <ul class="header__ul">  
+            <li>
+                <a href="/">Home</a>
+            </li>
+            <li>
+                <a href="/#menu">Menu</a>
+            </li> 
+            <li>
+                <a href="hours.html">Hours</a>
+            </li>
+            <li>
+                <a href="about.html">About</a>
+            </li> 
+        </ul>
+    </nav>
+</header>
+
+<article class="hero">
+    <h2 class="hero__h2"> You are Welcome! </h2>
+    <figure>
+        <img src="images for my 1st project/IMG-20220823-WA0029.jpg" alt="Shoe 4" 
+        title="we love shoes!" width="1000" height="667">
+        <figcaption class="offscreen">
+            Designers Shoe 4
+        </figcaption>
+    </figure>
+</article>
+<hr>
+
+<main class="main">
+<article class="main__article">
+        <h2>Our Location:</h2>
+        <address>
+            No. 3, Samuel Iyalla Street, Off Isaiah Road,
+            Okochiri, Okrika L.G.A, Rivers State.
+        <br><br>
+       <strong> Phone: </strong><a href="tel: +2347081933313">0708 193 3313</a>
+        </address>
+</article>
+<hr>
+<article class="main__article contact">
+    <h2 class="contact__h2">Contact Form:</h2>
+    
+    <form action="http://httpbin.org/get" method="get" class="contact__form">
+        <fieldset class="contact__fieldset">
+            <legend class="offscreen">Send Us A Message</legend>
+            <p class="contact__p">
+                <label class="contact__label" for="name">Name:</label>
+                <input class="contact__input" type="text" name="name" id="name"
+                placeholder="your name" required>
+            </p>
+            <p class="contact__p">
+                <label class="contact__label" for="email">Email</label>
+                <input class="contact__input" type="email" name="email" id="email" 
+                placeholder="your email" required>            
+            </p>
+            <p class="contact__p">
+                <label class="contact__label" for="message">Your Message:</label>
+                <br>
+                <textarea class="contact__textarea" name="message" id="message" cols="50" rows="20"
+                placeholder="Type your message here"></textarea>
+            </p>
+        </fieldset>
+        <button class="contact__button" type="submit">Send</button>
+        <button class="contact__button" type="reset">Reset</button>
+    </form>
+</article>
+</main>
+<br>
+        <p>
+            <a href="#">Back To Top</a>
+        </p>
+<hr>
+<footer class="footer">
+    <p>
+        <span class="nowrap">Copyright &copy; <time id="year"></time></span> 
+        <span class="nowrap">HAVE-IT-ON</span>
+    </p>
+</footer>
+    
+</body>
+</html>
